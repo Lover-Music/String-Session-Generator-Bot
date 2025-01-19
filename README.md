@@ -15,7 +15,7 @@
 - `/generate` - generate a string session 
 - `/broadcast` - broadcast a message to all bot users (owner only)</b>
 
-[![ʜᴇʀᴏᴋᴜ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=[https://github.com/iVINGSTYLE/BANALL](https://github.com/Lover-Music/String-Session-Generator-Bot)
+[![ʜᴇʀᴏᴋᴜ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Lover-Music/String-Session-Generator-Bot)
 
 ###  Variables
 
