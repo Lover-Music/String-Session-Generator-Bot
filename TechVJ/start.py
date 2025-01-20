@@ -14,9 +14,15 @@ async def start(bot: Client, msg: Message):
     await msg.reply_text(
         text=f"""Hello {msg.from_user.mention} 💫,
 
-Saya adalah {me} 
-Bot ini dapat membuat semua type Session.
-Coba bot ini sekarang!!!""",
+Welcome {me} 
+If you don't trust this bot, 
+Please stop reading this message
+Delete this chat
+
+Still reading?
+You can use me to generate Pyrogram and Telethon string session. Use below buttons to learn more !
+
+By !!!""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
