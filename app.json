@@ -25,7 +25,7 @@
             "required": true,
             "value": ""
         },
-        "F_SUB": {
+        "MUST_JOIN": {
             "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
             "required": true,
             "value": ""
