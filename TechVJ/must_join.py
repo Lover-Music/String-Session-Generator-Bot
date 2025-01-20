@@ -20,7 +20,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://telegra.ph/file/b790c0caa5324113c3434.jpg", caption=f"» Untuk menggunakan bot ini, anda harus [bergabung]({link}) dulu ke support chat, Jika sudah klik /start kembali!",
+                    photo="https://files.catbox.moe/v7x0aj.jpg", caption=f"» Untuk menggunakan bot ini, anda harus [bergabung]({link}) dulu ke support chat, Jika sudah klik /start kembali!",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
