@@ -20,11 +20,11 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://files.catbox.moe/v7x0aj.jpg", caption=f"» Untuk menggunakan bot ini, anda harus [bergabung]({link}) dulu ke support chat, Jika sudah klik /start kembali!",
+                    photo="https://files.catbox.moe/v7x0aj.jpg", caption=f"» 💥You must join [this channel]({link}) to use me. After joining try again ! /start 💥!",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("➕ Gabung Dulu", url=link),
+                                InlineKeyboardButton("💥Jion Channel💥", url=link),
                             ]
                         ]
                     )
