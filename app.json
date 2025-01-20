@@ -1,9 +1,9 @@
 {
-    "name": "ʙᴀɴ ᴀʟʟ",
-    "description": "sɪᴍᴘʟᴇ ʙᴏᴛ ᴛᴏ ʙᴀɴ ᴀʟʟ ᴛʜᴇ ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ᴛʜᴇ ᴡʜᴏʟᴇ ᴄʜᴀᴛs",
+    "name": "𝙇𝙊𝙑𝙀𝙍 ✘ 𝙎𝙚𝙨𝙨𝙞𝙤𝙣",
+    "description": "ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ",
     "logo": "https://telegra.ph/file/bc9699c365f82b7ca0f32.jpg",
-    "keywords": ["ᴋɪsᴀɴ-ʀᴀᴠɪ", "ᴀʟʟ"],
-    "repository": "https://github.com/Lover-Music/String-Session-Generator-Bot",
+    "keywords": ["Session String", "String"],
+    "repository": "https://github.com/Lover-Music/Lover_String_Session",
     "stack": "container",
     "env": {
         "BOT_TOKEN": {
@@ -11,7 +11,7 @@
             "required": true
         },
         "OWNER_ID": {
-            "description": "ᴛʏᴘᴇ ʏᴏᴜʀ ᴜsᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @ ʟɪᴋᴇ ʙɪᴋᴀsʜʜᴀʟᴅᴇʀ",
+            "description": "The user id of user whom you would like to add as OWNER.",
             "required": true,
             "value": ""
         },
@@ -21,12 +21,12 @@
             "value": ""
         },
         "MONGO_DB_URI": {
-            "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
+            "description": "Get a mongodb url from https://cloud.mongodb.com.",
             "required": true,
             "value": ""
         },
         "MUST_JOIN": {
-            "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
+            "description": "Most Jion ᴛᴇʟᴇɢʀᴀᴍ Support Group.",
             "required": true,
             "value": ""
         },
