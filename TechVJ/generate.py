@@ -42,9 +42,9 @@ async def main(_, msg):
 async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bool = False):
     if not await db.is_user_exist(msg.from_user.id):
         await db.add_user(msg.from_user.id, msg.from_user.first_name)
-    if config.F_SUB:
+    if config.MUST_JOIN:
         try:
-            await bot.get_chat_member(int(config.F_SUB), msg.from_user.id)
+            await bot.get_chat_member(int(config.MUST_JOIN), msg.from_user.id)
         except:
             try:
                 invite_link = await bot.create_chat_invite_link(int(config.MUST_JOIN))
