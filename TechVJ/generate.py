@@ -47,7 +47,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
             await bot.get_chat_member(int(config.F_SUB), msg.from_user.id)
         except:
             try:
-                invite_link = await bot.create_chat_invite_link(int(config.F_SUB))
+                invite_link = await bot.create_chat_invite_link(int(config.MUST_JOIN))
             except:
                 await msg.reply("**Make Sure I Am Admin In Your Channel**")
                 return
