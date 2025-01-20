@@ -33,4 +33,4 @@ async def must_join_channel(bot: Client, msg: Message):
             except ChatWriteForbidden:
                 pass
     except ChatAdminRequired:
-        print(f"Promosikan saya ke saya ke saluran must join")
+        print(f"Promotion please 🥺 must join")
