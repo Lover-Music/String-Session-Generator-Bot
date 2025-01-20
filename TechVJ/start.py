@@ -22,7 +22,7 @@ Delete this chat
 Still reading?
 You can use me to generate Pyrogram and Telethon string session. Use below buttons to learn more !
 
-By !!!""",
+By [Lover Team]({link})!!!""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
