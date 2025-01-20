@@ -1,5 +1,3 @@
-# Channel : https//t.me/ruangzeeb
-
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
